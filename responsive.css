@@ -1,0 +1,8 @@
+@media only screen and (max-width: 600px) {
+    section#bg-color {flex-direction: column;}
+    .half-width {width: 100%;}
+    .main-ex {flex-direction: column;}
+    .ex-width {width: 79%;}
+    .link-button {padding: 14px 13px;}
+    .ex-width-left {margin-bottom: 35px;}
+}
