@@ -4,7 +4,9 @@ font-family: 'Poppins', sans-serif; */
 body{
     font-family: 'Almarai', sans-serif;
     margin: 0;
+    /* overflow: hidden; */
 }
+
 .orange-color{
     color: #FFA808;
 }
@@ -66,7 +68,13 @@ body{
 .ex-width-left{
     border-width: 4px;
     border-style: solid;
-    border-image: 
+    -o-border-image: 
+      linear-gradient(
+        to bottom, 
+        red, 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+       border-image: 
       linear-gradient(
         to bottom, 
         red, 
@@ -75,7 +83,8 @@ body{
 }
 #web-dev-ex{
     border-left:4px solid;
-    border-image: linear-gradient(blue,cyan);
+    -o-border-image: linear-gradient(blue,cyan);
+       border-image: linear-gradient(blue,cyan);
     border-image-slice: 1;
 }
 
